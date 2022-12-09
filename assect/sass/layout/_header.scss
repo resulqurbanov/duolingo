@@ -1,0 +1,58 @@
+header {
+  width: 100%;
+  height: 100vh;
+  background-color: #235390;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+background-image: url("https://d35aaqx5ub95lt.cloudfront.net/images/4986531ca822d48e57b4a18f40ff5172.svg");
+  .header_dunya {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    .h_kecid {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      h1 {
+        font-size: 35px;
+        color: white;
+        width: 600px;
+        text-align: center;
+      }
+      .btn1 {
+        width: 320px;
+        height: 46px;
+        border-radius: 15px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        color: white;
+        background-color: rgb(123 177 44);
+        border: 0;
+        cursor: pointer;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+          rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+          rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+      }
+      .btn2 {
+        width: 320px;
+        height: 48px;
+        border-radius: 15px;
+        background-color: transparent;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+          rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+          rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        border: 0;
+        cursor: pointer;
+      }
+    }
+  }
+  .bayraqlar{
+    width: 100%;
+    height: 75px;
+    background-color: #0a4a82;
+  }
+}

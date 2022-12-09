@@ -1,0 +1,176 @@
+main{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    .sc1{
+        margin-top: 50px;
+        width: 65%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        img{
+            width: 250px;
+            margin-right: 40px;
+        }
+        h2{
+            margin-bottom: 15px;
+        }
+        p{
+            width: 700px;
+            font-size: 18px;
+            color: #777;
+        }
+    }
+   
+    .sc2{
+        display: flex;
+        width: 65%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .card_main{
+            display: flex;
+            flex-direction: row;
+            margin-top: 15px;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+            .card1{
+                
+               
+                .card1_ic1{
+                    display: flex;
+                    flex-direction: row;
+                    margin-bottom: 30px;
+                }
+                .card1_ic2{
+                    display: flex;
+                    flex-direction: row;
+                }
+            }
+            .card2{
+                .card2_ic1{
+                    display: flex;
+                    flex-direction: row;
+                    margin-bottom: 30px;
+                }
+                .card2_ic2{
+                    display: flex;
+                    flex-direction: row;
+                }
+            }
+        }
+
+    } 
+    .xett{
+        width: 65%;
+        height: 1px;
+        background-color : rgb(45, 44, 44);
+        margin: 30px 0;
+    }
+    h1{
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+    .sc3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 65%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        img{
+            width: 150px;
+       
+        }
+        .sc3_metn{
+            p{
+                color: #777;
+                margin-bottom: 20px;
+                width: 700px;
+            }
+            a{
+                color: #1cb0f6;
+            }
+        }
+    }
+    .sc4{
+        display: flex;
+        width: 65%;
+        justify-content: space-evenly;
+        .sc4_main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            div{    a{border: 2px;
+                width: 10px;
+                height: 10px;
+            
+                svg{
+                    width: 100px; 
+                       border: 5px;
+                }
+            }}
+            P{
+                font-size: 18px;
+                width: 780px;
+            }
+            
+        }
+    }
+    .sc5{
+        width: 65%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 30px;
+        .sc5_text{
+            margin-right: 40px;
+            p{
+                width: 600px;
+                margin-bottom: 30px;
+                font-size: 18px;
+            }
+        }
+    }
+    .sc6{
+        width: 65%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 30px;
+        .sc6_text{
+            margin-right: 40px;
+            p{
+                width: 600px;
+                margin-bottom: 30px;
+                font-size: 18px;
+            }
+        }
+    }
+    .sc7{
+        width: 65%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 30px;
+        img{
+            height: 250px;
+        }
+        .sc7_text{
+            margin-right: 40px;
+            p{
+                width: 600px;
+                margin-bottom: 30px;
+                font-size: 18px;
+            }
+        }
+    }
+}
